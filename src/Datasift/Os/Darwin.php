@@ -102,6 +102,10 @@ class Darwin extends Base {
             }
         }
 
+        // If we get this far, we're using a version of OSX, but we're not sure
+        // which one it is
+        return Darwin\Generic::fromDistribution($os, '', $distribution);
+
         return false;
     }
 

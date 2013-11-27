@@ -45,15 +45,15 @@ namespace Datasift\Os\Darwin;
 use Datasift\Os\Darwin;
 
 /**
- * MountainLion
+ * Generic
  *
  * @author Michael Heap <michael.heap@datasift.com>
  */
-class MountainLion extends Darwin {
+class Generic extends Darwin {
 
     /**
      * The major + minor version of the OS
      */
-    const VERSION = "12.4";
+    const VERSION = "0.0";
 
 }
